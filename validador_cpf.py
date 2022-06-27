@@ -1,7 +1,7 @@
 import re
 
 
-def remover_caracteres(cpf):
+def remover_caracteres(cpf):    # Tratamento do CPF recebido
     cpf_trabalhado = re.sub(r'[^0-9]', '', cpf)
     return cpf_trabalhado
 
